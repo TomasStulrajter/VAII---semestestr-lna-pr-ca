@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="MainPageStyl.css">
+    <meta charset="UTF-8">
+    <title>Hlavná stránka</title>
+</head>
+
+<body>
+<h1 id = "vrchol">COVID-19 na Slovensku - Analýza za mesiac september 2020</h1>
+<p>Na tejto stránke sa nachádzajú prehľadne usporiadané informácie z analýzy výskytu choroby COVID-19
+na Slovensku počas septembra tohoto roku, ktorú vypracoval Úrad verejného zdravotníctva. Všetky údaje
+zverejnené na tejto stránke sú prevzaté z oficiálneho dokumentu vydaného ÚVZ, ku ktorému prikladám odkaz v hlavnom menu stránky.</p>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">Hlavné menu</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hlavneMenu" aria-controls="hlavneMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+    <!-- Hlavne menu -->
+<div class="collapse navbar-collapse" id="hlavneMenu">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Výsledky analýzy
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Statistiky.html#odstavec1">Výskyt ochorení podľa kalendárnych týždňov</a>
+                <a class="dropdown-item" href="Statistiky.html#odstavec2">Vekovo špecifická incidencia</a>
+                <a class="dropdown-item" href="Statistiky.html#odstavec3">Klinická forma prípadov COVID-19</a>
+                <a class="dropdown-item" href="Statistiky.html#odstavec4">Incidencia podľa krajov</a>
+                <a class="dropdown-item" href="Statistiky.html#odstavec5">Incidencia podľa okresov</a>
+                <a class="dropdown-item" href="Statistiky.html#odstavec6">Importované nákazy</a>
+                <!-- <div class="dropdown-divider"></div> -->
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://korona.gov.sk/wp-content/uploads/2020/10/analyza_covid_september.pdf">Analýza v PDF</a>
+        </li>
+    </ul>
+</div>
+</nav>
+
+<!-- Telo stranky -->
+<div class="container">
+    <div class="row">
+        <!-- Opis COVIDu -->
+        <div class="col-md-4">
+            <p id = "prvyStlpec">COVID-19 je infekčné ochorenie, vyvolané koronavírusom SARS-CoV-2. Prvýkrát bol identifikovaný u pacientov so závažným
+                respiračným ochorením v decembri roku 2019 v čínskom meste Wu-chan. COVID-19 postihuje najmä dýchací systém, v ťažkých
+                prípadoch vyvoláva ťažký zápal pľúc a môže viesť až k úmrtiu pacienta. Vírus sa prenáša kvapôčkami sekrétu pri kašli,
+                kýchaní a rozprávaní. Ohrozuje osoby, ktoré sú v blízkom alebo dlhšie trvajúcom kontakte s nakazeným. Infekcia sa
+                prenáša aj cez kontaminované predmety.</p>
+        </div>
+        <!-- Priznaky COVIDu -->
+        <div class="col-md-4">
+            <p>Hlavné príznaky ochorenia COVID-19 sú uvedené na tejto infografike denníka SME:</p>
+            <img src="https://m.smedata.sk/api-media/media/image/sme/8/61/6138958/6138958.jpeg" alt="Hlavné príznaky ochorenia COVID-19">
+        </div>
+        <!-- Aktuality -->
+        <div class="col-md-4">
+            <p>Aktuality:</p>
+            <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/tpRw-qHEXOo">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<a href="#vrchol" id = "spodnyLink">Návrat na vrchol stránky</a>
+
+</body>
+</html>

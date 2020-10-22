@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="StatistikyStyl.css">
+    <meta charset="UTF-8">
+    <title>Štatistiky</title>
+</head>
+
+<body data-spy="scroll" data-target="#hlavneMenu" data-offset="0">
+<h1 id = "vrchol">Štatistiky</h1>
+<p>Nižšie sú uvedené hlavné štatistické informácie o výskytu ochorenia COVID-19 za sledované obdobie (september 2020),
+    tak ako boli prezentované Úradom verejného zdravotníctva.</p>
+
+<!-- Menu - Scrollspy -->
+<nav id="hlavneMenu" class="navbar sticky-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">Kategórie:</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#odstavec1">Výskyt ochorení podľa kalendárnych týždňov</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#odstavec2">Vekovo špecifická incidencia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#odstavec3">Klinická forma prípadov COVID-19</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#odstavec4">Incidencia podľa krajov</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#odstavec5">Incidencia podľa okresov</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#odstavec6">Importované nákazy</a>
+        </li>
+    </ul>
+</nav>
+
+<div id="odstavec1">
+    <h3>Výskyt ochorení podľa kalendárnych týždňov</h3>
+    <img src="statistikaObrazky/obr1.bmp" alt="Výskyt ochorení podľa kalendárnych týždňov">
+</div>
+
+<br>
+
+<div id="odstavec2">
+    <h3>Vekovo špecifická incidencia</h3>
+    <p class = "napoveda">Kliknutím na šípky prepínajte obrázky</p>
+    <!-- Carousel -->
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="statistikaObrazky/obr2.bmp" alt="Vekovo špecifická incidencia - celé obdobie">
+            </div>
+            <div class="carousel-item">
+                <img src="statistikaObrazky/obr3.bmp" alt="Vekovo špecifická incidencia - september">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Predchádzajúci</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Ďalší</span>
+        </a>
+    </div>
+</div>
+
+<br>
+
+<div id="odstavec3">
+    <h3>Klinická forma prípadov COVID-19</h3>
+    <p class = "napoveda">Kliknutím na šípky prepínajte obrázky</p>
+    <!-- Carousel -->
+    <div id="carousel2" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="statistikaObrazky/obr4.bmp" alt="Klinická forma prípadov COVID-19 - celé obdobie">
+            </div>
+            <div class="carousel-item">
+                <img src="statistikaObrazky/obr5.bmp" alt="Klinická forma prípadov COVID-19 - september">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Predchádzajúci</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Ďalší</span>
+        </a>
+    </div>
+</div>
+
+<br>
+
+<div id="odstavec4">
+    <h3>Incidencia podľa krajov</h3>
+    <img src="statistikaObrazky/obr6.bmp" alt="Výskyt ochorení podľa kalendárnych týždňov">
+</div>
+
+<br>
+
+<div id="odstavec5">
+    <h3>Incidencia podľa okresov</h3>
+    <p class = "napoveda">Kliknutím na šípky prepínajte obrázky</p>
+    <!-- Carousel -->
+    <div id="carousel3" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="statistikaObrazky/obr7.bmp" alt="Incidenciap podľa okresov - zelený obrázok">
+                <div class="carousel-caption">
+                    <p>Incidencia ako počet pozitívnych osôb prepočítaný na 100000 obyvateľov v každom okrese, vktorom majú pozitívne osoby bydlisko za september</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="statistikaObrazky/obr8.bmp" alt="Incidenciap podľa okresov - modrý obrázok">
+                <div class="carousel-caption">
+                    <p>Incidencia ako počet pozitívnych osôb prepočítaný na 100000 obyvateľov okresov, v ktorom sa pozitívne osoby nakazili za september.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Predchádzajúci</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Ďalší</span>
+        </a>
+    </div>
+</div>
+
+<br>
+
+<div id="odstavec6">
+    <h3>Importované nákazy</h3>
+    <img src="statistikaObrazky/obr9.bmp" alt="Výskyt ochorení podľa kalendárnych týždňov">
+</div>
+
+<br>
+<a href="MainPage.html" id = "spodnyLink">Návrat na hlavnú stránku</a>
+</body>
+</html>

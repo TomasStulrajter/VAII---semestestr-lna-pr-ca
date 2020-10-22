@@ -1,0 +1,60 @@
+p
+{
+    color: white;
+    font-family: Calibri;
+}
+
+body
+{
+    background-image: url("pozadie.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    color: #adb5bd;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 ~ p
+{
+    font-size: large;
+    padding-left: 15px;
+}
+
+.col-md-4 p
+{
+    padding: 30px;
+    margin: 25px;
+}
+
+#prvyStlpec
+{
+    border-style: ridge;
+    border-color: yellow;
+}
+
+#spodnyLink:link {
+    color: orange;
+}
+
+#spodnyLink:visited {
+    color: wheat;
+}
+
+#spodnyLink:hover {
+    color: orangered;
+}
+
+#spodnyLink:active {
+    color: wheat;
+}
+
+.col-md-4 img
+{
+    width: 100%;
+}
+

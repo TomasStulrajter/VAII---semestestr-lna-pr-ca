@@ -1,0 +1,46 @@
+p
+{
+    color: white;
+    font-family: Calibri;
+    align-items: center;
+}
+
+body
+{
+    background-image: url("pozadie.png");
+    background-size: cover;
+}
+
+h1
+{
+    color: #adb5bd;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 ~ p
+{
+    font-size: large;
+    padding-left: 15px;
+}
+
+.card
+{
+    float: left;
+    color: white;
+    background-color: black;
+    margin: 10px;
+}
+
+a
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+hr
+{
+    border-top: 1px solid white;
+}
